@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page</title>
+    <style>
+        body{
+            background-color:#fff;
+        }
+        #heading{
+            text-align: center;
+            font-size: 50px;
+            padding: px;
+            color: rgb(40, 40, 209);
+        }
+        #form1{
+            border: 0.05px solid black ;
+            margin: 50px 500px 50px 450px;
+            padding: 20px 35px 20px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 0 20px rgba(37, 40, 42, 0.858);
+                    box-shadow: 0 0 20px rgba(37, 40, 42, 0.858);
+            background-color:#fff;
+        }
+
+        
+        #username,#password{
+            height: 40px;
+            width: 200px;
+            background-color: #fff;
+           display: flex;
+           flex-direction: column;
+           border: 1px solid black;
+           border-radius: 5px;
+        }
+
+        #loginbtn,#username,#password,#desc{
+            padding: 3px;
+            margin: 5px;
+        }
+        #loginbtn{
+            height: 40px;
+            width: 210px;
+            background-color:rgb(7, 7, 249);
+            color: white;
+            font-size: large;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">facebook</h1>
+    <div id="maincontainer">
+        <form id="form1">
+            <label for="login" id="desc"><strong>Log in to Facebook</strong></label>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Email address or phone number">
+            <br>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <br>
+            <input type="button" name="btn" id="loginbtn" value="Log in">
+            <label for="forget"><a href="https://www.facebook.com">Forgotten account</a></label>
+            <label for="signup"><a href="https://www.facebook.com">Sign up for Facebook</a></label>
+        </form>
+    </div>
+</body>
+</html>
